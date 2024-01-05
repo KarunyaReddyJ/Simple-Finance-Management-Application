@@ -1,0 +1,16 @@
+p{
+    width: 80%;
+    padding: .5em;
+    background-color: bisque;
+    font: 1em sans-serif;
+    text-align: center;
+    align-items: center;
+    margin: 1em;
+    border: 2px solid black;
+}
+#show{
+    padding: 1em;
+    font: 1em sans-serif;
+    background-color: green;
+    color: white;
+}

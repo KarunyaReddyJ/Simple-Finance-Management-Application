@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #888;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font: 1em sans-serif;
+}
+a:hover{
+    color: white;
+    transform: scale(1.4);
+}
+li{
+    margin: 1em;
+}
+#addExpense{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+input{
+    width: 300px;
+    min-width: 20%;
+    padding: 1em;
+    font: 1em sans-serif;
+    margin: 1em;
+    border-radius: 2px;
+}
+#submit{
+    width: 200px;
+    min-width: 20%;
+    margin: 1em;
+    background-color: red;
+    color: white;
+    padding: 1em;
+    font: 1em sans-serif;
+}
+#people{
+    list-style-type: none;
+}
+#list{
+    background-color: #888;
+    padding: 1em;
+    color: white;
+}
